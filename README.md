@@ -6,6 +6,11 @@ conda create --no-default-packages -n docbot python
 ```
 
 # Before committing changes :-
-## 1)Update requirements.txt file:- '''pip freeze > requirements.txt'''
+## 1)Update requirements.txt file:- ```pip freeze > requirements.txt```
 ## 2)Remove all raw datasets from datasets directory
 ## 3)Remove all pre_trained models from models directory
+
+# After cloning project repository :-
+## 1)Update environment requirements:- ```pip install -r requirements.txt```
+## 2)Place all raw datasets in datasets/raw directory
+## 3)Place all pre_trained models in models/pre_trained directory
