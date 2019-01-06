@@ -5,6 +5,12 @@
 conda create --no-default-packages -n docbot python
 ```
 
+## Activate environment using :-<br/>
+```source activate docbot```
+
+## Deactivate environment using :- <br/>
+```source deactivate```
+
 ## Before committing changes :-
 1)Update requirements.txt file:- ```pip freeze > requirements.txt```<br/>
 2)Remove all raw datasets from datasets directory<br/>
