@@ -1,14 +1,22 @@
+import re
 import spacy
 nlp=spacy.load('en')
-def parseQuery(query):
+def parseBMIQuery(query):
     parsed_info={}
-    query=nlp(query)
-    for token in query:
-        if token.dep_=='attr':
-            children=[str(child) for child in token.children]
-            print(children[0])
-            if 'weight' in children:
-                parsed_info['weight']=children[0]
-            elif 'height' in children:
-                parsed_info['height']=children[0]
+    parsed_numbers=[int(num) for num in re.findall(r'\d+',query)]
+    ht_wt=re.findall(r'(weight|height)',query)
+    parsed_units=re.findall(r'(cm|m|kg)',query)
+    if 'cm' in parsed_units:
+        parsed_numbers[parsed_units.index('cm')]/=100
+    parsed_info[ht_wt.pop()]=parsed_numbers.pop()
+    parsed_info[ht_wt.pop()]=parsed_numbers.pop()
     return parsed_info
+
+def parseName(query):
+    doc=nlp(query)
+    name=None
+    for token in doc:
+        if token.tag_=='NN':
+            if len([child for child in token.children])==0:
+                name=str(token)
+    return name.capitalize()

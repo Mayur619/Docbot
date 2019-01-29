@@ -1,0 +1,12 @@
+Oh dear, I'm very sad to hear that you are having such a hard time. I have gone through all symptoms that you have provided and I think that you are diagnosed with __DISEASE__ .
+You might be suffering from __DISEASE__ .
+Here is your diagnostic result: You are having symptoms of __DISEASE__ .
+I can understand how hard it is for you. Therefore, I have gone through all symptoms given by you and according to me, you are having __DISEASE__ .
+You might have __DISEASE__ .
+Oh dear, I am very sorry to hear you have such a difficult time. I have taken all the symptoms you have given into account and I think you are diagnosed with __DISEASE__ .
+This is your diagnostic result: you have __DISEASE__ symptoms.
+I can see how difficult it is for you. I have therefore taken into account all the symptoms you have, and you have __DISEASE__ according to me.
+Oh dear, I'm so sorry to hear that you've had such a hard time. I took account of all of your symptoms and I believe that you are diagnosed with __DISEASE__ .
+You may have a __DISEASE__ condition.
+Oh dear, i am terribly unhappy to listen to that you just are having such a tough time. I've thought of all symptoms that you have provided and that i suppose that you are diagnosed with __DISEASE__ .
+This is your diagnostic result: you have got symptoms of __DISEASE__ .

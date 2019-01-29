@@ -1,3 +1,5 @@
+import math
+
 def CalculateBMI(height,weight):
 	bmi = round(weight/ (height * height), 1)
 	if bmi <= 18.5:
@@ -10,3 +12,7 @@ def CalculateBMI(height,weight):
 		print('Your BMI is', bmi, 'which means you are obese.')
 	else:
 		print('There is an error with your input')
+
+def CalculateBAI(height,hip_circum): 
+	bai = ((100 * hip_circum)/(height*math.sqrt(height)))-18
+	print('Your Body Adiposity Index :',bai)

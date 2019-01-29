@@ -4,7 +4,7 @@ import numpy as np
 from collections import defaultdict
 import matplotlib.pyplot as plt
 
-df = pd.read_excel('./dataset/raw_data.xlsx')
+df = pd.read_excel('./raw_data.xlsx')
 data = df.fillna(method='ffill')
 
 data.head()
