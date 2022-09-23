@@ -22,7 +22,7 @@ murmurhash==1.0.1
 numpy==1.15.4
 plac==0.9.6
 preshed==2.0.1
-protobuf==3.6.1
+protobuf==3.18.3
 pycparser==2.19
 python-telegram-bot==11.1.0
 regex==2018.1.10
